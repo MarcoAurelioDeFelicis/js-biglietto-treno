@@ -11,8 +11,13 @@ const userprice = price * +km //number
 console.log ('prezzo iniziale ' + userprice) //number
 
 const sconto20 = (userprice * 0.2 / 1)
+const result20 =sconto20 - userprice;
+console.log(result20)
 
 const sconto40 = (userprice * 0.4 / 1)
+const result40 =sconto20 - userprice;
+console.log(result40)
+
 
 if (age <= 18) {
     console.log ( sconto20 - userprice)
